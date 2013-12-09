@@ -94,3 +94,4 @@ setDeviceParams($('.screen-params'), deviceParams)
 
 setDeviceInfo($('.dmb'), Device)
 setDeviceInfo($('.jbp'), $.browser)
+setDeviceInfo($('.detect'), window.ui)
