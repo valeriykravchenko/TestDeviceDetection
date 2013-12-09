@@ -1,0 +1,58 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Test layout detection</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <h1>Browser Detection Test</h1>
+    <p>This is a simple test to understand what libraries can give us neseccary information about mobile browsers</p>
+
+    <div id="container">
+        <div class="root screen-params">
+            <h3>Device Screen Params</h3>
+            <p>We can use this params to get the smallest screen width and take it as base width</p>
+        </div>
+
+        <div class="root dmb">
+            <h3>Detect Mobile Browsers <small>Detect Mobile Browsers | Open source mobile phone detection</small></h3>
+            <p>This is not actually a library, more like regexp to detect browsers user agent. Bad choice because of no Git repository.</p>
+        </div>
+
+        <!--<div class="root bd">
+            <h3>browser-detection.js <small>Browser Detection Js</small></h3>
+            <p>Can't use this, uncomfortable usage, see docs. And almost no support, as it has no community.</p>
+            <p>
+                <a href="http://www.cloudwark.in/browser-detection-javascript">Docs</a><br>
+                <a href="https://github.com/sureshdsk/browser-detection.js">Git Hub Repo</a>
+            </p>
+        </div>-->
+
+        <div class="root jbp">
+            <h3>jquery-browser-plugin <small>A jQuery plugin for browser detection</small></h3>
+            <p>Pretty nice plugin. We have a lot of needed info, it has grunt testing, enough contributors and updates for such small library.</p>
+            <p><a href="https://github.com/gabceb/jquery-browser-plugin">Git Hub Repo</a></p>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="libs/browser-detection.js"></script>
+    <script src="libs/jquery.browser.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
